@@ -1,0 +1,8 @@
+# Project name (string)
+myproject: "Captain"
+
+# Dependency list (as list of strings)
+dependencies:
+  - typer
+  - pyyaml
+  - tomli-w

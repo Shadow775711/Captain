@@ -1,0 +1,15 @@
+[project]
+name = "Captain"
+version = "1.0"
+dependencies = [
+    "typer",
+    "pyyaml",
+    "tomli-w",
+]
+
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"

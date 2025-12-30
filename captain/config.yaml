@@ -1,0 +1,12 @@
+version: "1.0-Beta"
+
+modules:
+  - core
+  - parser_requirements
+  - parser_pyproject
+  - validator_build
+
+commands:
+  - req # convert -> requirements.txt
+  - pyproject # convert -> pyproject.toml
+  - validate build # check source file validity
